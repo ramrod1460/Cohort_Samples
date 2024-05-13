@@ -1,0 +1,709 @@
+[ {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 16,
+  "elementLabel" : "Total Invoice Price",
+  "elementName" : "TotalInvoicePrice (Pre-phase)",
+  "elementResult" : null,
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 0,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.getQuoteView",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "quoteView",
+    "parameters" : null,
+    "result" : "{\"version\":5,\"typedId\":\"5756.Q\",\"uniqueName\":\"P-5756\",\"label\":\"Lab07\",\"targetDate\":\"2021-06-17\",\"workflowStatus\":\"DRAFT\",\"inputs\":[{\"name\":\"Customer\",\"label\":\"Customer\",\"url\":\"/fetch/C/\",\"type\":\"CUSTOMER\",\"value\":\"CD-00006\",\"valueHint\":\"Soupo AG\",\"parameterConfig\":{},\"formattingOptions\":{}},{\"name\":\"DeliveryType\",\"label\":\"Delivery Type\",\"type\":\"OPTION\",\"value\":\"Express\",\"required\":true,\"parameterConfig\":{\"labels\":{\"Express\":\"Express Delivery\",\"Standard\":\"Standard Delivery\"}},\"formattingOptions\":{},\"valueOptions\":[\"Express\",\"Standard\"]}],\"viewState\":{\"selectedNodes\":[\"E5TdDvP4B3OlfbB\"]},\"outputs\":[{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":53.8633363,\"excludeFromExport\":false,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"cssProperties\":\"background-color:#99FFDD\",\"overrideAllowEmpty\":false,\"overridable\":false,\"overridden\":false}],\"lastUpdateByName\":\"admin\",\"createdByName\":\"admin\",\"calculationStatus\":0,\"dirty\":false,\"refreshInputs\":false,\"numberOfAttachments\":0,\"lineItems\":[{\"version\":1,\"typedId\":\"43861.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":7.35913,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0735913,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":7.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":27.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":5.25,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":2.0355387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766004541,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"zDuDnRaopbCMRxC\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball BS\",\"sku\":\"MB-0003\",\"folder\":false,\"treeLabel\":\"Meatball BS\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031},{\"version\":1,\"typedId\":\"43862.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":6.64424,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0664424,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":6.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":26.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":4.74,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":1.8377976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766001228,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"E5TdDvP4B3OlfbB\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball Bl\",\"sku\":\"MB-0001\",\"folder\":false,\"treeLabel\":\"Meatball Bl\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031}],\"expiryDate\":\"2021-06-17\",\"customerId\":\"CD-00006\",\"customerName\":\"Soupo AG\",\"quoteStatus\":\"DRAFT\",\"hasWorkflowHistory\":false,\"createDate\":\"2021-06-17T18:03:15\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031,\"rootUniqueName\":\"P-5756\",\"status\":\"DRAFT\"}"
+  }, {
+    "functionName" : "QuoteBuilder.isPrePhase",
+    "parameters" : "[]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 0,
+  "elementLabel" : "Delivery Type",
+  "elementName" : "DeliveryType (Pre-phase)",
+  "elementResult" : "net.pricefx.common.apibuilder.quote.QuoteBuilder@40782b15",
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 2,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.isPostPhase",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "QuoteBuilder.getQuoteView",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "quote",
+    "parameters" : null,
+    "result" : "{\"version\":5,\"typedId\":\"5756.Q\",\"uniqueName\":\"P-5756\",\"label\":\"Lab07\",\"targetDate\":\"2021-06-17\",\"workflowStatus\":\"DRAFT\",\"inputs\":[{\"name\":\"Customer\",\"label\":\"Customer\",\"url\":\"/fetch/C/\",\"type\":\"CUSTOMER\",\"value\":\"CD-00006\",\"valueHint\":\"Soupo AG\",\"parameterConfig\":{},\"formattingOptions\":{}},{\"name\":\"DeliveryType\",\"label\":\"Delivery Type\",\"type\":\"OPTION\",\"value\":\"Express\",\"required\":true,\"parameterConfig\":{\"labels\":{\"Express\":\"Express Delivery\",\"Standard\":\"Standard Delivery\"}},\"formattingOptions\":{},\"valueOptions\":[\"Express\",\"Standard\"]}],\"viewState\":{\"selectedNodes\":[\"E5TdDvP4B3OlfbB\"]},\"outputs\":[{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":53.8633363,\"excludeFromExport\":false,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"cssProperties\":\"background-color:#99FFDD\",\"overrideAllowEmpty\":false,\"overridable\":false,\"overridden\":false}],\"lastUpdateByName\":\"admin\",\"createdByName\":\"admin\",\"calculationStatus\":0,\"dirty\":false,\"refreshInputs\":false,\"numberOfAttachments\":0,\"lineItems\":[{\"version\":1,\"typedId\":\"43861.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":7.35913,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0735913,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":7.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":27.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":5.25,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":2.0355387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766004541,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"zDuDnRaopbCMRxC\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball BS\",\"sku\":\"MB-0003\",\"folder\":false,\"treeLabel\":\"Meatball BS\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031},{\"version\":1,\"typedId\":\"43862.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":6.64424,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0664424,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":6.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":26.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":4.74,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":1.8377976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766001228,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"E5TdDvP4B3OlfbB\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball Bl\",\"sku\":\"MB-0001\",\"folder\":false,\"treeLabel\":\"Meatball Bl\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031}],\"expiryDate\":\"2021-06-17\",\"customerId\":\"CD-00006\",\"customerName\":\"Soupo AG\",\"quoteStatus\":\"DRAFT\",\"hasWorkflowHistory\":false,\"createDate\":\"2021-06-17T18:03:15\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031,\"rootUniqueName\":\"P-5756\",\"status\":\"DRAFT\"}"
+  }, {
+    "functionName" : "QuoteBuilder.addOrUpdateInput",
+    "parameters" : "[ROOT, {name=DeliveryType, label=Delivery Type, type=OPTION, required=true, parameterConfig={labels={Express=Express Delivery, Standard=Standard Delivery}}, formattingOptions={}, valueOptions=[Express, Standard]}]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 18,
+  "elementLabel" : "Ball Cap Size",
+  "elementName" : "BallCapSize (Pre-phase)",
+  "elementResult" : {
+    "formattingOptions" : { },
+    "label" : "Ball Cap Size",
+    "name" : "BallCapSize",
+    "parameterConfig" : { },
+    "required" : false,
+    "type" : "TEXTUSERENTRY"
+  },
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 2,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.isPostPhase",
+    "parameters" : "[]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 0,
+  "elementLabel" : "__TRACE__ (Pre-phase)",
+  "elementName" : "__TRACE__ (Pre-phase)",
+  "elementResult" : "---------------------------------------------------------\nDuration (ms)                  Count  Execution element\n---------------------------------------------------------\n   279.66  100% ██████████         1  TestExecute\n     1.38    0% ░░░░░░░░░░         1  ├── get\n     1.25    0% ░░░░░░░░░░         9  ├── search.Partition\n     3.29    1% ░░░░░░░░░░         9  ├── search.ApplicationProperties\n     1.31    0% ░░░░░░░░░░         1  ├── search.QuoteType\n     0.43    0% ░░░░░░░░░░         1  ├── exists.Workflow\n     0.86    0% ░░░░░░░░░░         1  ├── search.PricingFormula\n   265.22   95% █████████░         1  └── QuoteHeaderLogic\n     0.13    0% ░░░░░░░░░░         1    ├── POS.flush\n    88.86   32% ███░░░░░░░         1    ├── TotalInvoicePrice\n    77.37   28% ██▓░░░░░░░         1    ├── DeliveryType\n    98.85   35% ███▓░░░░░░         1    └── BallCapSize\n",
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 2,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 16,
+  "elementLabel" : "Total Invoice Price",
+  "elementName" : "TotalInvoicePrice (Post-phase)",
+  "elementResult" : "net.pricefx.common.apibuilder.quote.QuoteBuilder@3c85cba2",
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 2,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.getQuoteView",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "quoteView",
+    "parameters" : null,
+    "result" : "{\"version\":5,\"typedId\":\"5756.Q\",\"uniqueName\":\"P-5756\",\"label\":\"Lab07\",\"targetDate\":\"2021-06-17\",\"workflowStatus\":\"DRAFT\",\"inputs\":[{\"name\":\"Customer\",\"label\":\"Customer\",\"url\":\"/fetch/C/\",\"type\":\"CUSTOMER\",\"value\":\"CD-00006\",\"valueHint\":\"Soupo AG\",\"parameterConfig\":{},\"formattingOptions\":{}},{\"name\":\"DeliveryType\",\"label\":\"Delivery Type\",\"type\":\"OPTION\",\"value\":\"Express\",\"required\":true,\"parameterConfig\":{\"labels\":{\"Express\":\"Express Delivery\",\"Standard\":\"Standard Delivery\"}},\"formattingOptions\":{},\"valueOptions\":[\"Express\",\"Standard\"]}],\"viewState\":{\"selectedNodes\":[\"E5TdDvP4B3OlfbB\"]},\"outputs\":[],\"lastUpdateByName\":\"admin\",\"createdByName\":\"admin\",\"calculationStatus\":0,\"dirty\":false,\"refreshInputs\":false,\"serverMessages\":[],\"numberOfAttachments\":0,\"lineItems\":[{\"version\":1,\"typedId\":\"43861.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":7.35913,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0735913,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":7.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":27.2855387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":5.25,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":2.0355387,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766004541,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"zDuDnRaopbCMRxC\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball BS\",\"sku\":\"MB-0003\",\"folder\":false,\"treeLabel\":\"Meatball BS\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031},{\"version\":1,\"typedId\":\"43862.QLI\",\"clicId\":5756,\"inputs\":[{\"name\":\"Quantity\",\"label\":\"Required Quantity\",\"type\":\"INTEGERUSERENTRY\",\"value\":1,\"required\":true,\"parameterConfig\":{\"dataType\":\"integer\",\"inputType\":\"range\",\"from\":1},\"formattingOptions\":{}},{\"name\":\"SalesDiscountPct\",\"label\":\"Sales Discount (%)\",\"type\":\"USERENTRY\",\"value\":0.01,\"required\":false,\"parameterConfig\":{\"dataType\":\"float\",\"inputType\":\"range\",\"from\":0,\"to\":1,\"formatType\":\"PERCENT\"},\"formattingOptions\":{}}],\"outputs\":[{\"resultName\":\"Quantity\",\"resultLabel\":\"Quantity\",\"result\":1,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"INTEGER\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountPct\",\"resultLabel\":\"Sales Discount %\",\"result\":0.01,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"ListPrice\",\"resultLabel\":\"List Price\",\"result\":6.64424,\"excludeFromExport\":false,\"displayOptions\":17,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"SalesDiscountAbs\",\"resultLabel\":\"SalesDiscount E\",\"result\":0.0664424,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"FreightSurcharge\",\"resultLabel\":\"Freight Surcharge\",\"result\":20,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"InvoicePrice\",\"resultLabel\":\"Invoice Price\",\"result\":6.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"TotalInvoicePrice\",\"resultLabel\":\"Total Invoice Price\",\"result\":26.5777976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"Cost\",\"resultLabel\":\"Cost\",\"result\":4.74,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginAbs\",\"resultLabel\":\"Pocket Margin E\",\"result\":1.8377976,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"MONEY_EUR\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false},{\"resultName\":\"PocketMarginPct\",\"resultLabel\":\"Pocket Margin %\",\"result\":0.2766001228,\"excludeFromExport\":false,\"displayOptions\":2,\"formatType\":\"PERCENT\",\"resultType\":\"SIMPLE\",\"overrideAllowEmpty\":true,\"overridable\":false,\"overridden\":false}],\"dirty\":false,\"lineId\":\"E5TdDvP4B3OlfbB\",\"calculationStatus\":0,\"editabilityStatus\":0,\"label\":\"Meatball Bl\",\"sku\":\"MB-0001\",\"folder\":false,\"treeLabel\":\"Meatball Bl\",\"createDate\":\"2021-07-20T19:35:26\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031}],\"expiryDate\":\"2021-06-17\",\"customerId\":\"CD-00006\",\"customerName\":\"Soupo AG\",\"quoteStatus\":\"DRAFT\",\"serverMessagesExtended\":[],\"hasWorkflowHistory\":false,\"createDate\":\"2021-06-17T18:03:15\",\"createdBy\":4031,\"lastUpdateDate\":\"2021-07-20T19:35:26\",\"lastUpdateBy\":4031,\"rootUniqueName\":\"P-5756\",\"status\":\"DRAFT\"}"
+  }, {
+    "functionName" : "QuoteBuilder.isPrePhase",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "QuoteBuilder.getQuoteView",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "",
+    "parameters" : null,
+    "result" : "I see Line is ->[version:1, typedId:43861.QLI, clicId:5756, inputs:[[name:Quantity, label:Required Quantity, type:INTEGERUSERENTRY, value:1, required:true, parameterConfig:[dataType:integer, inputType:range, from:1], formattingOptions:[:]], [name:SalesDiscountPct, label:Sales Discount (%), type:USERENTRY, value:0.01, required:false, parameterConfig:[dataType:float, inputType:range, from:0, to:1, formatType:PERCENT], formattingOptions:[:]]], outputs:[[resultName:Quantity, resultLabel:Quantity, result:1, excludeFromExport:false, displayOptions:2, formatType:INTEGER, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountPct, resultLabel:Sales Discount %, result:0.01, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:ListPrice, resultLabel:List Price, result:7.35913, excludeFromExport:false, displayOptions:17, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountAbs, resultLabel:SalesDiscount E, result:0.0735913, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:FreightSurcharge, resultLabel:Freight Surcharge, result:20, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:InvoicePrice, resultLabel:Invoice Price, result:7.2855387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:TotalInvoicePrice, resultLabel:Total Invoice Price, result:27.2855387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:Cost, resultLabel:Cost, result:5.25, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginAbs, resultLabel:Pocket Margin E, result:2.0355387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginPct, resultLabel:Pocket Margin %, result:0.2766004541, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false]], dirty:false, lineId:zDuDnRaopbCMRxC, calculationStatus:0, editabilityStatus:0, label:Meatball BS, sku:MB-0003, folder:false, treeLabel:Meatball BS, createDate:2021-07-20T19:35:26, createdBy:4031, lastUpdateDate:2021-07-20T19:35:26, lastUpdateBy:4031]"
+  }, {
+    "functionName" : "",
+    "parameters" : null,
+    "result" : "I see Line is ->[version:1, typedId:43862.QLI, clicId:5756, inputs:[[name:Quantity, label:Required Quantity, type:INTEGERUSERENTRY, value:1, required:true, parameterConfig:[dataType:integer, inputType:range, from:1], formattingOptions:[:]], [name:SalesDiscountPct, label:Sales Discount (%), type:USERENTRY, value:0.01, required:false, parameterConfig:[dataType:float, inputType:range, from:0, to:1, formatType:PERCENT], formattingOptions:[:]]], outputs:[[resultName:Quantity, resultLabel:Quantity, result:1, excludeFromExport:false, displayOptions:2, formatType:INTEGER, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountPct, resultLabel:Sales Discount %, result:0.01, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:ListPrice, resultLabel:List Price, result:6.64424, excludeFromExport:false, displayOptions:17, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountAbs, resultLabel:SalesDiscount E, result:0.0664424, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:FreightSurcharge, resultLabel:Freight Surcharge, result:20, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:InvoicePrice, resultLabel:Invoice Price, result:6.5777976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:TotalInvoicePrice, resultLabel:Total Invoice Price, result:26.5777976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:Cost, resultLabel:Cost, result:4.74, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginAbs, resultLabel:Pocket Margin E, result:1.8377976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginPct, resultLabel:Pocket Margin %, result:0.2766001228, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false]], dirty:false, lineId:E5TdDvP4B3OlfbB, calculationStatus:0, editabilityStatus:0, label:Meatball Bl, sku:MB-0001, folder:false, treeLabel:Meatball Bl, createDate:2021-07-20T19:35:26, createdBy:4031, lastUpdateDate:2021-07-20T19:35:26, lastUpdateBy:4031]"
+  }, {
+    "functionName" : "QuoteBuilder.getQuoteView",
+    "parameters" : "[]",
+    "result" : ""
+  }, {
+    "functionName" : "",
+    "parameters" : null,
+    "result" : "Line Items : [[version:1, typedId:43861.QLI, clicId:5756, inputs:[[name:Quantity, label:Required Quantity, type:INTEGERUSERENTRY, value:1, required:true, parameterConfig:[dataType:integer, inputType:range, from:1], formattingOptions:[:]], [name:SalesDiscountPct, label:Sales Discount (%), type:USERENTRY, value:0.01, required:false, parameterConfig:[dataType:float, inputType:range, from:0, to:1, formatType:PERCENT], formattingOptions:[:]]], outputs:[[resultName:Quantity, resultLabel:Quantity, result:1, excludeFromExport:false, displayOptions:2, formatType:INTEGER, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountPct, resultLabel:Sales Discount %, result:0.01, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:ListPrice, resultLabel:List Price, result:7.35913, excludeFromExport:false, displayOptions:17, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountAbs, resultLabel:SalesDiscount E, result:0.0735913, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:FreightSurcharge, resultLabel:Freight Surcharge, result:20, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:InvoicePrice, resultLabel:Invoice Price, result:7.2855387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:TotalInvoicePrice, resultLabel:Total Invoice Price, result:27.2855387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:Cost, resultLabel:Cost, result:5.25, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginAbs, resultLabel:Pocket Margin E, result:2.0355387, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginPct, resultLabel:Pocket Margin %, result:0.2766004541, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false]], dirty:false, lineId:zDuDnRaopbCMRxC, calculationStatus:0, editabilityStatus:0, label:Meatball BS, sku:MB-0003, folder:false, treeLabel:Meatball BS, createDate:2021-07-20T19:35:26, createdBy:4031, lastUpdateDate:2021-07-20T19:35:26, lastUpdateBy:4031], [version:1, typedId:43862.QLI, clicId:5756, inputs:[[name:Quantity, label:Required Quantity, type:INTEGERUSERENTRY, value:1, required:true, parameterConfig:[dataType:integer, inputType:range, from:1], formattingOptions:[:]], [name:SalesDiscountPct, label:Sales Discount (%), type:USERENTRY, value:0.01, required:false, parameterConfig:[dataType:float, inputType:range, from:0, to:1, formatType:PERCENT], formattingOptions:[:]]], outputs:[[resultName:Quantity, resultLabel:Quantity, result:1, excludeFromExport:false, displayOptions:2, formatType:INTEGER, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountPct, resultLabel:Sales Discount %, result:0.01, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:ListPrice, resultLabel:List Price, result:6.64424, excludeFromExport:false, displayOptions:17, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:SalesDiscountAbs, resultLabel:SalesDiscount E, result:0.0664424, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:FreightSurcharge, resultLabel:Freight Surcharge, result:20, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:InvoicePrice, resultLabel:Invoice Price, result:6.5777976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:TotalInvoicePrice, resultLabel:Total Invoice Price, result:26.5777976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:Cost, resultLabel:Cost, result:4.74, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginAbs, resultLabel:Pocket Margin E, result:1.8377976, excludeFromExport:false, displayOptions:2, formatType:MONEY_EUR, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false], [resultName:PocketMarginPct, resultLabel:Pocket Margin %, result:0.2766001228, excludeFromExport:false, displayOptions:2, formatType:PERCENT, resultType:SIMPLE, overrideAllowEmpty:true, overridable:false, overridden:false]], dirty:false, lineId:E5TdDvP4B3OlfbB, calculationStatus:0, editabilityStatus:0, label:Meatball Bl, sku:MB-0001, folder:false, treeLabel:Meatball Bl, createDate:2021-07-20T19:35:26, createdBy:4031, lastUpdateDate:2021-07-20T19:35:26, lastUpdateBy:4031]]"
+  }, {
+    "functionName" : "Line",
+    "parameters" : "MB-0003",
+    "result" : "27.2855387"
+  }, {
+    "functionName" : "Line",
+    "parameters" : "MB-0001",
+    "result" : "26.5777976"
+  }, {
+    "functionName" : "Total invoice price",
+    "parameters" : null,
+    "result" : "53.8633363"
+  }, {
+    "functionName" : "QuoteBuilder.addOrUpdateOutput",
+    "parameters" : "[ROOT, {resultName=TotalInvoicePrice, resultLabel=Total Invoice Price, result=53.8633363, formatType=MONEY_EUR, resultType=SIMPLE, cssProperties=background-color:#99FFDD, warnings=null}]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 0,
+  "elementLabel" : "Delivery Type",
+  "elementName" : "DeliveryType (Post-phase)",
+  "elementResult" : null,
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 0,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.isPostPhase",
+    "parameters" : "[]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 18,
+  "elementLabel" : "Ball Cap Size",
+  "elementName" : "BallCapSize (Post-phase)",
+  "elementResult" : null,
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 0,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ {
+    "functionName" : "QuoteBuilder.isPostPhase",
+    "parameters" : "[]",
+    "result" : ""
+  } ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 0,
+  "elementLabel" : "__TRACE__ (Post-phase)",
+  "elementName" : "__TRACE__ (Post-phase)",
+  "elementResult" : "---------------------------------------------------------\nDuration (ms)                  Count  Execution element\n---------------------------------------------------------\n   286.63  100% ██████████         1  TestExecute\n     1.38    0% ░░░░░░░░░░         1  ├── get\n     1.25    0% ░░░░░░░░░░         9  ├── search.Partition\n     3.29    1% ░░░░░░░░░░         9  ├── search.ApplicationProperties\n     1.31    0% ░░░░░░░░░░         1  ├── search.QuoteType\n     0.72    0% ░░░░░░░░░░         2  ├── exists.Workflow\n     0.86    0% ░░░░░░░░░░         1  ├── search.PricingFormula\n   270.20   94% █████████░         2  ├── QuoteHeaderLogic\n     0.68    0% ░░░░░░░░░░         2  │   ├── POS.flush\n    93.17   33% ███░░░░░░░         2  │   ├── TotalInvoicePrice\n    77.44   27% ██▓░░░░░░░         2  │   ├── DeliveryType\n    98.89   34% ███░░░░░░░         2  │   └── BallCapSize\n     0.92    0% ░░░░░░░░░░         1  └── search.Product\n",
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 2,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "SIMPLE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ ],
+  "userGroup" : null,
+  "warnings" : [ ]
+}, {
+  "alertMessage" : null,
+  "alertType" : null,
+  "cellStyles" : null,
+  "cssProperties" : null,
+  "displayOptions" : 0,
+  "elementLabel" : "Quote",
+  "elementName" : "Quote",
+  "elementResult" : {
+    "quote" : {
+      "calculationStatus" : 0,
+      "createdByName" : "admin",
+      "customerId" : "CD-00006",
+      "customerName" : "Soupo AG",
+      "dirty" : false,
+      "expiryDate" : "2021-06-17",
+      "hasWorkflowHistory" : false,
+      "inputs" : [ {
+        "formattingOptions" : { },
+        "label" : "Customer",
+        "name" : "Customer",
+        "parameterConfig" : { },
+        "type" : "CUSTOMER",
+        "url" : "/fetch/C/",
+        "value" : "CD-00006",
+        "valueHint" : "Soupo AG"
+      }, {
+        "formattingOptions" : { },
+        "label" : "Delivery Type",
+        "name" : "DeliveryType",
+        "parameterConfig" : {
+          "labels" : {
+            "Express" : "Express Delivery",
+            "Standard" : "Standard Delivery"
+          }
+        },
+        "required" : true,
+        "type" : "OPTION",
+        "value" : "Express",
+        "valueOptions" : [ "Express", "Standard" ]
+      } ],
+      "label" : "Lab07",
+      "lineItems" : [ {
+        "calculationStatus" : 0,
+        "clicId" : 5756,
+        "dirty" : false,
+        "editabilityStatus" : 0,
+        "folder" : false,
+        "inputs" : [ {
+          "formattingOptions" : { },
+          "label" : "Required Quantity",
+          "name" : "Quantity",
+          "parameterConfig" : {
+            "dataType" : "integer",
+            "from" : 1,
+            "inputType" : "range"
+          },
+          "required" : true,
+          "type" : "INTEGERUSERENTRY",
+          "value" : 1
+        }, {
+          "formattingOptions" : { },
+          "label" : "Sales Discount (%)",
+          "name" : "SalesDiscountPct",
+          "parameterConfig" : {
+            "dataType" : "float",
+            "formatType" : "PERCENT",
+            "from" : 0,
+            "inputType" : "range",
+            "to" : 1
+          },
+          "required" : false,
+          "type" : "USERENTRY",
+          "value" : 0.01
+        } ],
+        "label" : "Meatball BS",
+        "lineId" : "zDuDnRaopbCMRxC",
+        "outputs" : [ {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "INTEGER",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 1,
+          "resultLabel" : "Quantity",
+          "resultName" : "Quantity",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "PERCENT",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.01,
+          "resultLabel" : "Sales Discount %",
+          "resultName" : "SalesDiscountPct",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 17,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 7.35913,
+          "resultLabel" : "List Price",
+          "resultName" : "ListPrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.0735913,
+          "resultLabel" : "SalesDiscount E",
+          "resultName" : "SalesDiscountAbs",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 20,
+          "resultLabel" : "Freight Surcharge",
+          "resultName" : "FreightSurcharge",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 7.2855387,
+          "resultLabel" : "Invoice Price",
+          "resultName" : "InvoicePrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 27.2855387,
+          "resultLabel" : "Total Invoice Price",
+          "resultName" : "TotalInvoicePrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 5.25,
+          "resultLabel" : "Cost",
+          "resultName" : "Cost",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 2.0355387,
+          "resultLabel" : "Pocket Margin E",
+          "resultName" : "PocketMarginAbs",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "PERCENT",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.2766004541,
+          "resultLabel" : "Pocket Margin %",
+          "resultName" : "PocketMarginPct",
+          "resultType" : "SIMPLE"
+        } ],
+        "sku" : "MB-0003",
+        "treeLabel" : "Meatball BS"
+      }, {
+        "calculationStatus" : 0,
+        "clicId" : 5756,
+        "dirty" : false,
+        "editabilityStatus" : 0,
+        "folder" : false,
+        "inputs" : [ {
+          "formattingOptions" : { },
+          "label" : "Required Quantity",
+          "name" : "Quantity",
+          "parameterConfig" : {
+            "dataType" : "integer",
+            "from" : 1,
+            "inputType" : "range"
+          },
+          "required" : true,
+          "type" : "INTEGERUSERENTRY",
+          "value" : 1
+        }, {
+          "formattingOptions" : { },
+          "label" : "Sales Discount (%)",
+          "name" : "SalesDiscountPct",
+          "parameterConfig" : {
+            "dataType" : "float",
+            "formatType" : "PERCENT",
+            "from" : 0,
+            "inputType" : "range",
+            "to" : 1
+          },
+          "required" : false,
+          "type" : "USERENTRY",
+          "value" : 0.01
+        } ],
+        "label" : "Meatball Bl",
+        "lineId" : "E5TdDvP4B3OlfbB",
+        "outputs" : [ {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "INTEGER",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 1,
+          "resultLabel" : "Quantity",
+          "resultName" : "Quantity",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "PERCENT",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.01,
+          "resultLabel" : "Sales Discount %",
+          "resultName" : "SalesDiscountPct",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 17,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 6.64424,
+          "resultLabel" : "List Price",
+          "resultName" : "ListPrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.0664424,
+          "resultLabel" : "SalesDiscount E",
+          "resultName" : "SalesDiscountAbs",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 20,
+          "resultLabel" : "Freight Surcharge",
+          "resultName" : "FreightSurcharge",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 6.5777976,
+          "resultLabel" : "Invoice Price",
+          "resultName" : "InvoicePrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 26.5777976,
+          "resultLabel" : "Total Invoice Price",
+          "resultName" : "TotalInvoicePrice",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 4.74,
+          "resultLabel" : "Cost",
+          "resultName" : "Cost",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "MONEY_EUR",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 1.8377976,
+          "resultLabel" : "Pocket Margin E",
+          "resultName" : "PocketMarginAbs",
+          "resultType" : "SIMPLE"
+        }, {
+          "displayOptions" : 2,
+          "excludeFromExport" : false,
+          "formatType" : "PERCENT",
+          "overridable" : false,
+          "overridden" : false,
+          "overrideAllowEmpty" : true,
+          "result" : 0.2766001228,
+          "resultLabel" : "Pocket Margin %",
+          "resultName" : "PocketMarginPct",
+          "resultType" : "SIMPLE"
+        } ],
+        "sku" : "MB-0001",
+        "treeLabel" : "Meatball Bl"
+      } ],
+      "numberOfAttachments" : 0,
+      "outputs" : [ {
+        "cssProperties" : "background-color:#99FFDD",
+        "excludeFromExport" : false,
+        "formatType" : "MONEY_EUR",
+        "overridable" : false,
+        "overridden" : false,
+        "overrideAllowEmpty" : false,
+        "result" : 53.8633363,
+        "resultLabel" : "Total Invoice Price",
+        "resultName" : "TotalInvoicePrice",
+        "resultType" : "SIMPLE"
+      } ],
+      "quoteStatus" : "DRAFT",
+      "refreshInputs" : false,
+      "rootUniqueName" : "P-5756",
+      "serverMessages" : [ "Quote calculated successfully" ],
+      "serverMessagesExtended" : [ {
+        "key" : "QUOTE_CALCULATED",
+        "message" : "Quote calculated successfully"
+      } ],
+      "status" : "DRAFT",
+      "targetDate" : "2021-06-17",
+      "uniqueName" : "P-5756",
+      "viewState" : {
+        "selectedNodes" : [ "E5TdDvP4B3OlfbB" ]
+      },
+      "workflowStatus" : "DRAFT"
+    },
+    "resultType" : "QUOTE"
+  },
+  "elementResultDescription" : null,
+  "error" : null,
+  "excludeFromExport" : false,
+  "fieldType" : 7,
+  "formatType" : null,
+  "hideOnNull" : false,
+  "hideWarnings" : false,
+  "labelTranslations" : null,
+  "overridable" : false,
+  "overridden" : false,
+  "overrideAllowEmpty" : true,
+  "overrideValueOptions" : [ ],
+  "resultGroup" : null,
+  "resultType" : "QUOTE",
+  "suffix" : null,
+  "summarize" : false,
+  "traceMessages" : [ ],
+  "userGroup" : null,
+  "warnings" : [ ]
+} ]
